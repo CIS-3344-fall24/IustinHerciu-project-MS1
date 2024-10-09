@@ -54,9 +54,18 @@ p{
 
 
 #geographyImage,
-#physicsImage,
 #architectureImage {
     width: 260px;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px #000;
+}
+
+#physicsImage{
+    width: 290px;
     height: auto;
     margin-bottom: 30px;
     margin-top: 15px;
@@ -66,13 +75,7 @@ p{
     object-fit: cover;
 }
 
-#physicsImage{
-    width: 290px;
-}
-
-#submitButton,
-#submitButton2,
-#submitButton3{
+#submitButton2{
     width: 250px;
     height: auto;
     margin-top: -15px;
@@ -80,10 +83,16 @@ p{
 }
 
 #submitButton{
+    width: 250px;
+    height: auto;
+    margin-top: -15px;
     background-color: lightblue;
 }
 
 #submitButton3{
+    width: 250px;
+    height: auto;
+    margin-top: -15px;
     background-color: lightcoral;
 }
 
@@ -126,4 +135,53 @@ p{
     gap: 100px;
     padding: 20px;
 }
+
+/* Style for the form to align radio buttons vertically */
+.quiz-question {
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    margin-bottom: 20px;   /* Space between questions */
+}
+
+.quiz-question label {
+    margin-bottom: 10px; /* Space between each label */
+}
+
+button{
+    padding: 2rem 3.5rem;
+    background: #0ef;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem #0ef;
+    font-size: 1.2rem;
+    color: #323946;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    display: inline-block;
+}
+
+button:hover{
+    box-shadow: none;
+}
+
+.btn{
+    margin-left: 38%;
+    margin-top: 100px;
+    padding: 2rem 3rem;
+    background: #0ef;
+    border-radius: 4rem;
+    box-shadow: 0 0 3rem #000000;
+    font-size: 1.2rem;
+    color: #323946;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+    display: inline-block;
+}
+
+.btn:hover{
+    box-shadow: none;
+}
+
+
 
