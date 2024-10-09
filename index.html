@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width = device - width, initial-scale = 1.0">
+    <title>Quiz Application</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Main title -->
+<h1><span class="main-title"></span></h1>
+
+<!-- small description about the website -->
+<p>
+    <span>
+        Test your knowledge with our interactive quiz platform!
+        Dive into exciting quizzes across Physics, Geography, and Architecture to challenge
+        your understanding and learn something new. Whether you're exploring
+        the laws of nature, discovering world landmarks, or analyzing architectural marvels,
+        there's a quiz for every curious mind. Sharpen your skills, track your progress,
+        and have fun while learning!
+    </span>
+</p>
+
+<h2><span>Pick your subject:</span></h2>
+
+<div class="selection">
+    <form class="geography">
+        <div class="geographyCard">
+            <img id="geographyImage" src="GeographyImage.png" alt="Geography Image"><br>
+
+            <label for="fullName2"></label>
+            <input type="text"
+                   id="fullName2"
+                   name="name"
+                   placeholder="Enter Full Name"
+                   required><br><br>
+
+            <label for="email2"></label>
+            <input type="email"
+                   id="email2"
+                   name="email"
+                   placeholder="Enter E-mail Address"
+                   required><br><br>
+
+            <label for="confirmEmail2"></label>
+            <input type="email"
+                   id="confirmEmail2"
+                   name="confirmEmail"
+                   placeholder="Confirm E-mail Address"
+                   required><br><br>
+
+            <label for="submitButton2"></label>
+            <input type="image" id="submitButton2" src="START%20BUTTONS-03.png" alt="Submit">
+        </div><br>
+    </form>
+
+    <form class="physics_card">
+        <div class="physicsCard">
+            <img id="physicsImage" src="PhysicsImage.png" alt="Physics Image"><br>
+
+            <label for="fullName"></label>
+            <input type="text"
+                   id="fullName"
+                   name="name"
+                   placeholder="Enter Full Name"
+                   required><br><br>
+
+            <label for="email"></label>
+            <input type="email"
+                   id="email"
+                   name="email"
+                   placeholder="Enter E-mail Address"
+                   required><br><br>
+
+            <label for="confirmEmail"></label>
+            <input type="email"
+                   id="confirmEmail"
+                   name="confirmEmail"
+                   placeholder="Confirm E-mail Address"
+                   required><br><br>
+
+            <label for="submitButton"></label>
+            <input type="image" id="submitButton" src="START%20BUTTONS-02.png" alt="Submit">
+        </div><br>
+    </form>
+
+    <form class="architecture_card">
+        <div class="architectureCard">
+            <img id="architectureImage" src="Minecraft.png" alt="Architecture Image">
+
+            <label for="fullName3"></label>
+            <input type="text"
+                   id="fullName3"
+                   name="name"
+                   placeholder="Enter Full Name"
+                   required><br><br>
+
+            <label for="email3"></label>
+            <input type="email"
+                   id="email3"
+                   name="email"
+                   placeholder="Enter E-mail Address"
+                   required><br><br>
+
+            <label for="confirmEmail3"></label>
+            <input type="email"
+                   id="confirmEmail3"
+                   name="confirmEmail"
+                   placeholder="Confirm E-mail Address"
+                   required><br><br>
+
+            <label for="submitButton3"></label>
+            <input type="image" id="submitButton3" src="START%20BUTTONS-02.png" alt="Submit">
+        </div><br>
+    </form>
+
+</div>
+
+<!-- footer design -->
+<footer class = "footer">
+    <div class = "footer-text">
+        <p>Copyright &copy; 2024 by Iustin Herciu | All Rights Reserved.</p>
+    </div>
+    <div class = "footer-iconTop">
+        <a href = ""><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+</body>
+</html>
